@@ -7,6 +7,8 @@
     <title>PHP-pdo-proeftoets</title>
 </head>
 <body>
-    
+    <?php 
+        require 'lib/main.php';
+    ?>
 </body>
 </html>

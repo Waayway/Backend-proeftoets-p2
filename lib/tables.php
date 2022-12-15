@@ -6,6 +6,7 @@ function createTables($pdo)
         "CREATE TABLE IF NOT EXISTS RichestPeople (
             id          int NOT NULL AUTO_INCREMENT PRIMARY KEY,
             name        varchar(200),
+            networth    varchar(200),
             Age         tinyint,
             myCompany   varchar(200)
         );"
